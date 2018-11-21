@@ -1,4 +1,3 @@
-import 'isomorphic-fetch';
 import { fetchData } from './actions';
 const middleware = store => next => action =>{
         if (!action || !action.config) {
